@@ -1,0 +1,45 @@
+{
+  "global": {
+    "aio_sleep_hours": 24
+  },
+  "programs": {
+    "p1": {
+      "enable_faucet": false,
+      "amount_mode": "range",
+      "fixed": "0.05",
+      "min": "0.01",
+      "max": "0.09",
+      "repeat": 1,
+      "delay": 60
+    },
+    "p2": {
+      "count": 2,
+      "delay": 60
+    },
+    "p3": {
+      "swap_times": 5,
+      "swap_amount": "0.1",
+      "start_dir": "random",
+      "do_stake": true,
+      "stake_mode": "random",
+      "stake_times": 1,
+      "stake_rand_min": 5,
+      "stake_rand_max": 10,
+      "stake_amount": "0.1",
+      "delay": 60
+    },
+    "p4": {
+      "runs": 5,
+      "delay": 60
+    },
+    "p5": {
+      "runs": 1,
+      "delay": 60
+    },
+    "p6": {
+      "runs": 5,
+      "delay": 60,
+      "amount": "0.1"
+    }
+  }
+}

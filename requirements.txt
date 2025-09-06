@@ -1,0 +1,5 @@
+# Core
+web3>=5.31,<7
+rich>=13.7
+python-dotenv>=1.0
+requests[socks]>=2.31
